@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Age Calculator App Solution](https://github.com/cassiamoraes/Age-Calculator-App)
+- Live Site URL: [Age Calculator Site](https://cassiamoraes.github.io/Age-Calculator-App/)
 
 ## My process
 

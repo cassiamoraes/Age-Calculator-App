@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: hsl(0deg, 0%, 94%);
+  min-height: 100vh;
+}
+
+.attribution, h1 {
+  display: none;
+}
+
+.container {
+  background-color: hsl(0deg, 0%, 100%);
+  width: 40rem;
+  height: 30rem;
+  margin: auto;
+  border-radius: 1rem 1rem 8rem;
+}
+.container .content-1 {
+  width: 35rem;
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.1rem;
+  color: hsl(0deg, 1%, 44%);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 2rem;
+  border-bottom: 1px solid hsl(0deg, 0%, 86%);
+}
+.container .content-1 input {
+  cursor: pointer;
+  width: 6.5rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: hsl(0deg, 0%, 86%);
+  color: hsl(0deg, 1%, 44%);
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.container .content-1 input:hover {
+  font-weight: bold;
+}
+.container .content-1 input:valid {
+  border: 2px solid gray;
+}
+.container .content-1 .form-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 25rem;
+  height: 5rem;
+}
+.container .content-1 .form-group {
+  width: 10rem;
+  height: 5rem;
+}
+.container .content-1 .form-group .divDay, .container .content-1 .form-group .divMonth, .container .content-1 .form-group .divYear {
+  margin-top: 0.5rem;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: normal;
+  font-family: Century Gothic, sans-serif;
+  font-style: italic;
+  font-size: 10px;
+  color: red;
+}
+.container .content-1 button {
+  cursor: pointer;
+  border-radius: 10rem;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  margin-left: 31rem;
+  margin-top: 5rem;
+  background-color: hsl(259deg, 100%, 65%);
+}
+.container .content-1 button:hover {
+  background-color: black;
+}
+.container .content-1 img {
+  padding: 0.5rem;
+  max-width: 2rem;
+}
+.container .content-2 {
+  width: 30rem;
+  height: 15rem;
+  margin: 2rem;
+  line-height: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 57px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.container .content-2 strong {
+  color: hsl(259deg, 100%, 65%);
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    width: 23rem;
+    height: 29rem;
+  }
+  .container .content-1 {
+    width: 19rem;
+    height: 9rem;
+  }
+  .container .content-1 .form-group {
+    width: 20rem;
+    height: 5rem;
+  }
+  .container .content-1 .form-list {
+    width: 20rem;
+  }
+  .container .content-1 input {
+    width: 5rem;
+    height: 3rem;
+  }
+  .container .content-1 button {
+    margin-left: 7.5rem;
+    margin-top: 7rem;
+  }
+  .container .content-2 {
+    width: 25rem;
+    margin-top: 5rem;
+    font-size: 38px;
+  }
+}
